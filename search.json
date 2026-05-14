@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "I am a Computer Science student at The College of Idaho with experience in software development, machine learning, data analysis, and astrophysics research. My work combines programming with scientific research and technical communication.\nCurrently, I work as a research intern analyzing astronomical data and developing software tools that improve observational workflows. My interests include software engineering, machine learning, scientific computing, and game development.\n\n\n\n\n\n\n\nCapture and analyze B-type star spectra\nDevelop observational automation tools and scripts\nWrite technical reports communicating research findings\nWork with Python and data analysis techniques\n\n\n\n\n\n\nProgramming Languages\nPython • C++ • SQL • LaTeX\nAreas of Interest\nMachine Learning • Data Analysis • Scientific Computing • Software Development • Data Visualization • Technical Writing\n\n\n\n\n\n\nA strategy game developed in Godot featuring a modular card system and hex-based gameplay. Card data is loaded from external files, allowing mechanics and content to scale easily.\nCurrent implemented systems include:\n\nCard drawing\nMovement on a hex grid\nCard combat and health systems\nModular card definitions from data files\nCurrency rewards from defeated cards\n\n\n\n\nDeveloped scripts and workflows supporting observatory operations and photometric data collection.\n\n\n\n\n\nResume\nCover Letter"
+    "text": "I am a Computer Science student at The College of Idaho with experience in software development, machine learning, data analysis, and astrophysics research. My work combines programming with scientific research and technical communication.\nCurrently, I work as a research intern analyzing astronomical data and developing software tools that improve observational workflows. My interests include software engineering, machine learning, scientific computing, and game development.\n\n\n\n\n\n\n\nCapture and analyze B-type star spectra\nDevelop observational automation tools and scripts\nWrite technical reports communicating research findings\nWork with Python and data analysis techniques\n\n\n\n\n\n\nProgramming Languages\nPython • C++ • SQL • LaTeX\nAreas of Interest\nMachine Learning • Data Analysis • Scientific Computing • Software Development • Data Visualization • Technical Writing\n\n\n\n\n\n\nA strategy game developed in Godot featuring a modular card system and hex-based gameplay. Card data is loaded from external files, allowing mechanics and content to scale easily.\nCurrent implemented systems include:\n\nCard drawing\nMovement on a hex grid\nCard combat and health systems\nModular card definitions from data files\nCurrency rewards from defeated cards\n\n\n\n\nDeveloped scripts and workflows supporting observatory operations and photometric data collection.\n\n\n\n\n\nResume\nCover Letter\n\n\n\nSample Analysis"
   },
   {
     "objectID": "index.html#featured-experience",
@@ -47,5 +47,12 @@
     "title": "Home",
     "section": "",
     "text": "Resume\nCover Letter"
+  },
+  {
+    "objectID": "index.html#sample-analysis",
+    "href": "index.html#sample-analysis",
+    "title": "Home",
+    "section": "",
+    "text": "Sample Analysis"
   }
 ]

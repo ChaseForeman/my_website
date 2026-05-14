@@ -53,3 +53,10 @@ iframe {
   border-radius: 8px;
   background: white;
 }
+
+main.content {
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}

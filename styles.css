@@ -1,20 +1,41 @@
-/* General page styling */
+/* ===== General site styling ===== */
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.6;
   color: #222;
   background-color: #fafafa;
+  line-height: 1.6;
 }
 
-/* Main content area */
-main {
-  max-width: 1000px;
+/* Keep normal pages readable */
+#quarto-document-content {
+  max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
+/* Page titles */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Links */
+a {
+  color: #245c8a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
 .button {
   display: inline-block;
+  margin: 1rem 0 1.5rem 0;
   padding: 0.7rem 1.1rem;
   background-color: #245c8a;
   color: white;
@@ -28,51 +49,39 @@ main {
   text-decoration: none;
 }
 
-/* Page titles */
-h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.4rem;
-}
 
-/* Links */
-a {
-  color: #245c8a;
-  text-decoration: none;
-}
+/* ===== PDF pages ===== */
 
-a:hover {
-  text-decoration: underline;
-}
-
-
-/* Embedded PDFs */
-iframe {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: white;
-}
-
-main.content {
-    max-width: 1400px;
-    width: 90%;
-    margin: auto;
-    padding: 2rem;
-}
-
+/* Use this only on pages with page-layout: full */
+.quarto-title-block + .pdf-page,
 .pdf-page {
-  max-width: 1100px;
+  width: min(95vw, 1100px);
   margin: 0 auto;
   padding: 1rem;
 }
 
+/* Make embedded PDF large and readable */
 .pdf-viewer {
   display: block;
   width: 100%;
-  height: 1200px;
+  height: 1150px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin-top: 1.5rem;
   background: white;
+}
+
+/* Mobile fallback */
+@media (max-width: 700px) {
+  #quarto-document-content {
+    padding: 1rem;
+  }
+
+  .pdf-page {
+    width: 100%;
+    padding: 0;
+  }
+
+  .pdf-viewer {
+    height: 850px;
+  }
 }

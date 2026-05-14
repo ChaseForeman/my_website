@@ -16,8 +16,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "my_website",
+    "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I am a Computer Science student at The College of Idaho with experience in software development, machine learning, data analysis, and astrophysics research. My work combines programming with scientific research and technical communication.\nCurrently, I work as a research intern analyzing astronomical data and developing software tools that improve observational workflows. My interests include software engineering, machine learning, scientific computing, and game development.\n\n\n\n\n\n\n\nCapture and analyze B-type star spectra\nDevelop observational automation tools and scripts\nWrite technical reports communicating research findings\nWork with Python and data analysis techniques\n\n\n\n\n\n\nProgramming Languages\nPython • C++ • SQL • LaTeX\nAreas of Interest\nMachine Learning • Data Analysis • Scientific Computing • Software Development • Data Visualization • Technical Writing\n\n\n\n\n\n\nA strategy game developed in Godot featuring a modular card system and hex-based gameplay. Card data is loaded from external files, allowing mechanics and content to scale easily.\nCurrent implemented systems include:\n\nCard drawing\nMovement on a hex grid\nCard combat and health systems\nModular card definitions from data files\nCurrency rewards from defeated cards\n\n\n\n\nDeveloped scripts and workflows supporting observatory operations and photometric data collection.\n\n\n\n\n\nResume\nCover Letter"
+  },
+  {
+    "objectID": "index.html#featured-experience",
+    "href": "index.html#featured-experience",
+    "title": "Home",
+    "section": "",
+    "text": "Capture and analyze B-type star spectra\nDevelop observational automation tools and scripts\nWrite technical reports communicating research findings\nWork with Python and data analysis techniques"
+  },
+  {
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "Home",
+    "section": "",
+    "text": "Programming Languages\nPython • C++ • SQL • LaTeX\nAreas of Interest\nMachine Learning • Data Analysis • Scientific Computing • Software Development • Data Visualization • Technical Writing"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Home",
+    "section": "",
+    "text": "A strategy game developed in Godot featuring a modular card system and hex-based gameplay. Card data is loaded from external files, allowing mechanics and content to scale easily.\nCurrent implemented systems include:\n\nCard drawing\nMovement on a hex grid\nCard combat and health systems\nModular card definitions from data files\nCurrency rewards from defeated cards\n\n\n\n\nDeveloped scripts and workflows supporting observatory operations and photometric data collection."
+  },
+  {
+    "objectID": "index.html#documents",
+    "href": "index.html#documents",
+    "title": "Home",
+    "section": "",
+    "text": "Resume\nCover Letter"
   }
 ]
